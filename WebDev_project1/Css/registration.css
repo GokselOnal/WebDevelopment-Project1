@@ -1,0 +1,79 @@
+body{
+  background-color: #DEF2F1;
+  background-position: center;
+}
+h1{
+  text-align: center;
+  color: black;
+  margin-top: 30px;
+}
+h2{
+  text-align: center;
+  color: #17252A;
+  margin-top: 175px;
+}
+
+form{
+  margin-left: 38.5%;
+}
+.input_text{
+  text-align: center;
+  width: 130%;
+  height: 22px;
+  padding: 7px 3px;
+  margin: 7px 10px;
+  border-radius: 28px;
+  border-style: double;
+  border-color: #17252A;
+  border-width: thin;
+  outline: none;
+}
+
+.radio_button{
+  margin-left: 34px;
+  margin-top: 12px;
+}
+
+button{
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  height: 35px;
+  border-radius: 13px;
+  background-color: #2B7A78;
+  border: none;
+  color: #17252A;
+  display: inline-block;
+  font-size: 15px;
+  outline: none;
+}
+
+button:hover{
+  transition: 0.5s;
+  background-color: #3AAFA9;
+  color: black;
+}
+
+header,footer{
+  background: #2B7A78;
+	color:;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+footer{
+  width: 100%;
+	position: fixed;
+	bottom: 0px;
+	height: 55px;
+  left: 0;
+}
