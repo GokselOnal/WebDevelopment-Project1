@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+}
+
+header,footer{
+  background: #2B7A78;
+	color:;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+footer{
+  width: 100%;
+	position: fixed;
+	bottom: 0px;
+	height: 55px;
+  left: 0;
+}
