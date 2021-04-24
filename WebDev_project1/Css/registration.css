@@ -2,40 +2,49 @@ body{
   /*background-color: #DEF2F1;*/
   background-position: center;
   background-image: url('../Images/background.jpg');
-  background-size: 100%,100%;
+  background-size: 107%;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 25.4px;
 }
 h1{
   text-align: center;
-  color: black;
+  color: #A8D0Ef;
   margin-top: 30px;
 }
 h2{
   text-align: center;
   color: #17252A;
-  margin-top: 195px;
+  margin-top: 181px;
 }
 label{
   color: #A8D0E6;
 }
 
 form{
-  margin-left: 38.5%;
+  margin-left: 38%;
 }
 .input_text{
   text-align: center;
   width: 130%;
   height: 22px;
   padding: 7px 3px;
-  margin: 7px 10px;
+  margin: 7px 8px;
   border-radius: 28px;
   border-style: ridge;
   border-color: #A8D0E6;
   outline: none;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
 }
 
 .radio_button{
-  margin-left: 34px;
-  margin-top: 12px;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 15px;
 }
 
 button{
@@ -52,19 +61,19 @@ button{
   border-color: #A8D0E6;
   color: #A8D0E6;
   display: inline-block;
-  font-size: 15px;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 17px;
   outline: none;
 }
 
 button:hover{
-  transition: 0.5s;
-  background-color: #4FB3BF;
+  transition: 0.65s;
+  background-color: #A8D0E6;
   color: black;
 }
 
 header,footer{
   background: #00363F;
-	color:;
 }
 
 header{
