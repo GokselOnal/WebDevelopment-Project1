@@ -1,5 +1,4 @@
 body{
-  /*background-color: #DEF2F1;*/
   background-position: center;
   background-image: url('../Images/background.jpg');
   background-size: 107%;
@@ -10,16 +9,19 @@ body{
   font-weight: 500;
   line-height: 25.4px;
 }
+
 h1{
   text-align: center;
   color: #A8D0Ef;
   margin-top: 30px;
 }
+
 h2{
   text-align: center;
   color: #17252A;
   margin-top: 181px;
 }
+
 label{
   color: #A8D0E6;
 }
@@ -27,6 +29,7 @@ label{
 form{
   margin-left: 38%;
 }
+
 .input_text{
   text-align: center;
   width: 130%;

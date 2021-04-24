@@ -1,12 +1,24 @@
 body{
+  background-color: #DEF2F1;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 25.4px;
+}
+
+img{
+  margin-top: 100px;
+  margin-left: 0;
+}
+
+h1{
   text-align: center;
-  background-image: url('../Images/background.jpg');
-  background-size: 100%,100%;
 }
 
 header,footer{
   background: #00363F;
-	color:;
 }
 
 header{
