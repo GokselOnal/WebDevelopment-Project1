@@ -8,23 +8,26 @@
     <title>Welcome</title>
 </head>
 <body>
-    <div class="sidebar">
-        <h2 class = "title">Sign In</h2>
-        <form action="" method="POST">
-            <div class="login-form">
-                <div class="form-group">
-                    <input class="form-control" type="text" >
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="password">
-                </div>
-                <div class="form-group">
-                    <button class="btn">Sıgn In</button>
-                </div>
-
-            </div>
-
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <div>
+        <form action="POST" class="entrance">
+            <table>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input class="username" type="text" id="username" name="" value="" maxlength="25" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Last Name </label></td>
+                    <td><input class="password" type="password" id="password" name="" value="" maxlength="25" required></td>
+                </tr>
+            </table>
         </form>
+        <button type="button" name="button">Sign In</button>
+        <button type="button" name="button">Register</button>
+
+
     </div>
 </body>
 </html>
