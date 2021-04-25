@@ -1,57 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
-.sidebar{
-    position:fixed;
-    top:0;
-    left:0;
-    width:400px;
-    height:100%;
-    background-color: #fff;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.35);
-}
-
 body{
-    background-color: #efeee8;
-    font-family: 'Open Sans', sans-serif;
-}
-.title{
-    font-weight: 700;
-    font-size : 30px;
-    font-family: 'Roboto', sans-serif;
+    background-color: #DEF2F1;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 25.4px;
+  }
+  h1{
     text-align: center;
-
-}
-.btn{
-    background-color: #3557ff;
-    color: #fff;
-    cursor: pointer;
-    font-weight:700;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    color: #A8D0Ef;
+    margin-top: 30px;
+  }
+  label{
+    color: #A8D0E6;
+  }
+  form{
+    margin-left: 38%;
+  }
+  .input_entrance{
+    text-align: center;
+    width: 130%;
+    height: 22px;
+    padding: 7px 3px;
+    margin: 7px 8px;
+    border-radius: 28px;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    outline: none;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-weight: bolder;
+  }
+  button{
     width: 150px;
-    height: 50px;
-    border-radius: 3px;
-    border: none;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.35);    
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    border-radius: 13px;
+    background-color: #005762;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    color: #A8D0E6;
+    display: inline-block;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    outline: none;
+  }
 
-}
+  button:hover{
+    transition: 0.65s;
+    background-color: #A8D0E6;
+    color: black;
+  }
 
-.form-control{
-    width:250px;
-    padding: 15px;
-    color:#1a1a1a;
-    border-radius: 3px;
-    border:1px solid #ccc;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.35);
-}
+  header,footer{
+    background: #00363F;
+  }
 
-.form-group{
-    margin-bottom:10px;
-}
-.login-form{
-    display:table;
-    margin:auto;
-}
-.btn-left{
-    float:left;
-}
+  header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+  
+  footer{
+    width: 100%;
+      position: fixed;
+      bottom: 0px;
+      height: 55px;
+    left: 0;
+  }
