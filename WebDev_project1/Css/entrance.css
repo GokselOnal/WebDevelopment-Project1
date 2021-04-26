@@ -1,4 +1,5 @@
 body{
+    background-position: center;
     background-color: #DEF2F1;
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
@@ -23,6 +24,13 @@ body{
   label{
     color: #A8D0E6;
   }
+
+  h2{
+    text-align: center;
+    color: #17252A;
+    margin-top: 290px;
+  }
+
   .input_entrance{
     text-align: center;
     width: 130%;
@@ -68,10 +76,11 @@ body{
   header{
     position: fixed;
     width: 100%;
+    height: 100px;
     top: 0;
     left: 0;
   }
-  
+
   footer{
     width: 100%;
     position: fixed;
@@ -86,8 +95,4 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100%;
-  }
-
-  html {
-    height: 100%;
   }
