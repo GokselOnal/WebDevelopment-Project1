@@ -77,6 +77,9 @@ button:hover{
 
 header,footer{
   background: #00363F;
+  border: 1px groove #A8D0Ef;
+  border-left: 0;
+  border-left: 0;
 }
 
 header{
@@ -85,18 +88,23 @@ header{
   height: 100px;
   top: 0;
   left: 0;
+  border-top: 0;
 }
 
 footer{
+  text-align: center;
   width: 100%;
 	position: fixed;
 	bottom: 0px;
 	height: 55px;
   left: 0;
+  border-bottom: 0;
+  margin-top: 0;
 }
 
-h2{
-  text-align: center;
-  color: #17252A;
-  margin-top: 181px;
+p{
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #A8D0Ef;
 }

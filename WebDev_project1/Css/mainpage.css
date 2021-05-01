@@ -50,7 +50,7 @@ h1{
   .sell_number_field{
     text-align: center;
     width: 30%;
-    height: 20px;
+    height: 22px;
     padding: 7px 3px;
     margin: 7px 8px;
     border-radius: 28px;
@@ -88,8 +88,15 @@ h1{
     color: black;
   }
 
-header,footer{
+  li{
+    list-style: none;
+  }
+
+  header,footer{
     background: #00363F;
+    border: 1px groove #A8D0Ef;
+    border-left: 0;
+    border-left: 0;
   }
 
   header{
@@ -98,12 +105,22 @@ header,footer{
     height: 100px;
     top: 0;
     left: 0;
+    border-top: 0;
   }
 
   footer{
+    text-align: center;
     width: 100%;
-      position: fixed;
-      bottom: 0px;
-      height: 55px;
+  	position: fixed;
+  	bottom: 0px;
+  	height: 55px;
     left: 0;
+    border-bottom: 0;
+  }
+
+  p{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #A8D0Ef;
   }
