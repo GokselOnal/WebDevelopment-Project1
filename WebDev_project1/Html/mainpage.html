@@ -6,81 +6,84 @@
   <title>mainpage</title>
   <link rel="stylesheet" type="text/css" href="../Css/mainpage.css">
 </head>
+
 <body>
-    <header>
-        <h1>mainpage</h1>
-    </header>
-    <div class="sidebar">
-      <label for="fname">First name:</label>
-      <input id="fname" type="text" name="firstname" value="Ahmet">
-      <label for="money">portfolio:</label>
-      <input id="money" type="text" name="portfolio" value="₺100">
-      Coins owned and their amount:
-      <ol>
-        <li><img src="../Images/goksel_coin.png" width="20" height="20"alt="göksel_coin">
-          <label for="sellcoin">Gökselcoin</label>
-          <br>
-          <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100"> 
-              <button type="button" name="button">sell</button>
-               10
-        </li>
+  <header>
+    <h1>mainpage</h1>
+  </header>
+  <div class="sidebar">
+    <label for="fname">First name:</label>
+    <input id="fname" type="text" name="firstname" value="Ahmet">
+    <label for="money">portfolio:</label>
+    <input id="money" type="text" name="portfolio" value="₺100">
+    Coins owned and their amount:
+    <ol>
+      <li><img src="../Images/goksel_coin.png" width="20" height="20" alt="göksel_coin">
+        <label for="sellcoin">Gökselcoin</label>
         <br>
-        <li><img src="../Images/SmallBerkCoin.png" width="20" height="20"alt="berk_coin">
-          <label for="sellcoin">Berkcoin BRK</label>
-          <br>
-          <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-              <button type="button" name="button">sell</button>
-              20
-        </li>
+        <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+        <button type="button" name="button">sell</button>
+        10
+      </li>
+      <br>
+      <li><img src="../Images/SmallBerkCoin.png" width="20" height="20" alt="berk_coin">
+        <label for="sellcoin">Berkcoin BRK</label>
         <br>
-        <li><label for="sellcoin">Nurettincoin</label>
-          <br>
-          <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-              <button type="button" name="button">sell</button>
-              5
-        </li>
+        <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+        <button type="button" name="button">sell</button>
+        20
+      </li>
+      <br>
+      <li><label for="sellcoin">Nurettincoin</label>
         <br>
-        <li><label for="sellcoin">Denizcoin</label>
-          <br>
-          <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-              <button type="button" name="button">sell</button>
-              7
-        </li>
-        </ol>
-    </div>
-    <div class="middle">
-  Coin list: price amount
-<ol>
-<li><img src="../Images/goksel_coin.png" width="20" height="20"alt="göksel_coin">
-  <label for="buycoin">Gökselcoin</label>
-  <input id="buycoin" type="number" name="amount of coins to be buy"  placeholder="amount" min="0" max="100" > 
-      <button type="button" name="button">buy</button>
-      ₺25 200
-</li>
-<br>
-<li><img src="../Images/SmallBerkCoin.png" width="20" height="20"alt="berk_coin">
-  <label for="buycoin">Berkcoin BRK</label>
-  <input id="buycoin" type="number" name="amount of coins to be buy"  placeholder="amount" min="0" max="100" >
-      <button type="button" name="button">buy</button>
-      ₺10 200
-</li>
-<br>
-<li><label for="buycoin">Nurettincoin</label>
-  <input id="buycoin" type="number" name="amount of coins to be buy"  placeholder="amount" min="0" max="100" >
-      <button type="button" name="button">buy</button>
-      ₺17 200
-</li>
-<br>
-<li><label for="buycoin">Denizcoin</label>
-  <input id="buycoin" type="number" name="amount of coins to be buy"  placeholder="amount" min="0" max="100" >
-      <button type="button" name="button">buy</button>
-      ₺23 200
-</li>
-</ol>
-</div>
-    <footer>
+        <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+        <button type="button" name="button">sell</button>
+        5
+      </li>
+      <br>
+      <li><label for="sellcoin">Denizcoin</label>
+        <br>
+        <input id="sellcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+        <button type="button" name="button">sell</button>
+        7
+      </li>
+    </ol>
+  </div>
+  <div class="middle">
+    Coin list: price amount
+    <ol>
+      <li><img src="../Images/goksel_coin.png" width="20" height="20" alt="göksel_coin">
+        <label for="buy_number_gokselcoin">Gökselcoin</label>
+        <input id="buy_number_gokselcoin" type="number" name="amount of coins to be buy" placeholder="amount" min="0" max="100">
+        <button type="button" name="buy_coin" id="buy_button_gokselcoin" onclick="buy_coins('buy_number_gokselcoin')">buy</button>
+        ₺25 200
+      </li>
+      <br>
+      <li><img src="../Images/SmallBerkCoin.png" width="20" height="20" alt="berk_coin">
+        <label for="buy_number_berkcoin">Berkcoin BRK</label>
+        <input id="buy_number_berkcoin" type="number" name="amount of coins to be buy" placeholder="amount" min="0" max="100">
+        <button type="button" name="buy_coin" id="buy_button_berkcoin" onclick="buy_coins('buy_number_berkcoin')">buy</button>
+        ₺10 200
+      </li>
+      <br>
+      <li><label for="buy_number_nurettincoin">Nurettincoin</label>
+        <input id="buy_number_nurettincoin" type="number" name="amount of coins to be buy" placeholder="amount" min="0" max="100">
+        <button type="button" name="buy_coin" id="buy_button_nurettincoin" onclick="buy_coins('buy_number_nurettincoin')">buy</button>
+        ₺17 200
+      </li>
+      <br>
+      <li><label for="buy_number_denizcoin">Denizcoin</label>
+        <input id="buy_number_denizcoin" type="number" name="amount of coins to be buy" placeholder="amount" min="0" max="100">
+        <button type="button" name="buy_coin" id="buy_button_denizcoin"onclick="buy_coins('buy_number_denizcoin')">buy</button>
+        ₺23 200
+      </li>
+    </ol>
+  </div>
+  <footer>
 
-    </footer>
+  </footer>
 
+  <script src="../Js/change_amount.js"></script>
 </body>
+
 </html>
