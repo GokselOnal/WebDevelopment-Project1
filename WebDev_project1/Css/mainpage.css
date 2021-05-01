@@ -13,25 +13,85 @@ body{
     left:0;
     width:300px;
     height:100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #3a6d7a;
+    border: solid;
+    border-color: #00363F;
+    border-top: 0;
+    border-left: 0;
 }
 .middle{
-  position: absolute;
-  top:100px;
-  left: 300px;;
+  position: fixed;
+  top:20%;
+  left: 35%;;
   width:700px;
   height:100%;
 }
 
 h1{
+  text-align: center;
+  color: #A8D0Ef;
+  margin-top: 30px;
+}
+
+  .number_field{
     text-align: center;
-    color:#A8D0Ef;
+    width: 14%;
+    height: 22px;
+    padding: 7px 3px;
+    margin: 7px 8px;
+    border-radius: 28px;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    outline: none;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-weight: bolder;
+  }
+
+  .sell_number_field{
+    text-align: center;
+    width: 30%;
+    height: 20px;
+    padding: 7px 3px;
+    margin: 7px 8px;
+    border-radius: 28px;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    outline: none;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-weight: bolder;
+  }
+
+  hr{
+    border: 2px solid #00363F;
+    border-radius: 8px;
+  }
+
+  button{
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+    border-radius: 13px;
+    background-color: #005762;
+    border-style: ridge;
+    border-color: #A8D0E6;
+    color: #A8D0E6;
+    display: inline-block;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    outline: none;
+  }
+
+  button:hover{
+    transition: 0.65s;
+    background-color: #A8D0E6;
+    color: black;
   }
 
 header,footer{
     background: #00363F;
   }
-  
+
   header{
     position: fixed;
     width: 100%;
@@ -39,7 +99,7 @@ header,footer{
     top: 0;
     left: 0;
   }
-  
+
   footer{
     width: 100%;
       position: fixed;

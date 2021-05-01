@@ -11,7 +11,7 @@ function buy_coins(number_id){
       user_storage_parsed.price -= (Number(amount_buy) * 25200)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-        console.log("para yok la");
+        window.confirm("para yok la");
     }
   }
   else if(number_id === "buy_number_berkcoin"){
@@ -21,7 +21,7 @@ function buy_coins(number_id){
       user_storage_parsed.price -= (Number(amount_buy) * 10200)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-        console.log("para yok la");
+        window.confirm("para yok la");
     }
   }
   else if(number_id === "buy_number_nurettincoin"){
@@ -31,7 +31,7 @@ function buy_coins(number_id){
       user_storage_parsed.price -= (Number(amount_buy) * 17200)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-        console.log("para yok la");
+        window.confirm("para yok la");
     }
   }
   else if(number_id === "buy_number_denizcoin"){
@@ -41,7 +41,7 @@ function buy_coins(number_id){
       user_storage_parsed.price -= (Number(amount_buy) * 23200)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-        console.log("para yok la");
+        window.confirm("para yok la");
     }
   }
 }
@@ -63,7 +63,7 @@ function sell_coins(number_id){
       user_storage_parsed.price += (Number(amount_sell) * 10)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-      console.log("coin yok l");
+      window.confirm("para yok la");
     }
   }
   else if(number_id === "sell_number_berkcoin"){
@@ -73,7 +73,7 @@ function sell_coins(number_id){
       user_storage_parsed.price += (Number(amount_sell) * 20)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-      console.log("coin yok l");
+      window.confirm("para yok la");
     }
   }
   else if(number_id === "sell_number_nurettincoin"){
@@ -83,7 +83,7 @@ function sell_coins(number_id){
       user_storage_parsed.price += (Number(amount_sell) * 5)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-        console.log("coin yok l");
+        window.confirm("para yok la");
     }
   }
   else if(number_id === "sell_number_denizcoin"){
@@ -93,7 +93,7 @@ function sell_coins(number_id){
       user_storage_parsed.price += (Number(amount_sell) * 7)
       localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
     }else{
-      console.log("coin yok l");
+      window.confirm("para yok la");
     }
   }
 }
