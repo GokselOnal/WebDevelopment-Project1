@@ -16,6 +16,7 @@ function buy_coins(number_id){
         user_storage_parsed.goksel_coin += Number(amount_buy);
         user_storage_parsed.price -= (Number(amount_buy) * Number(buy_value_goksel))
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("buy_number_gokselcoin").value = "";
       }else{
         window.confirm("There is no enough money in your account!");
       }
@@ -32,6 +33,7 @@ function buy_coins(number_id){
         user_storage_parsed.berk_coin += Number(amount_buy);
         user_storage_parsed.price -= (Number(amount_buy) * Number(buy_value_berk))
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("buy_number_berkcoin").value = "";
       }else{
         window.confirm("There is no enough money in your account!");
       }
@@ -48,6 +50,7 @@ function buy_coins(number_id){
         user_storage_parsed.nurettin_coin += Number(amount_buy);
         user_storage_parsed.price -= (Number(amount_buy) * Number(buy_value_nurettin))
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("buy_number_nurettincoin").value = "";
       }else{
         window.confirm("There is no enough money in your account!");
       }
@@ -64,6 +67,7 @@ function buy_coins(number_id){
         user_storage_parsed.deniz_coin += Number(amount_buy);
         user_storage_parsed.price -= (Number(amount_buy) * Number(buy_value_deniz))
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("buy_number_denizcoin").value = "";
       }else{
           window.confirm("There is no enough money in your account!");
       }
@@ -90,6 +94,7 @@ function sell_coins(number_id){
         user_storage_parsed.goksel_coin -= Number(amount_sell);
         user_storage_parsed.price += (Number(amount_sell) * 10)
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("sell_number_gokselcoin").value = "";
       }else{
         window.confirm("There is no enough 'goksel coin' in your account!");
       }
@@ -105,6 +110,7 @@ function sell_coins(number_id){
         user_storage_parsed.berk_coin -= Number(amount_sell);
         user_storage_parsed.price += (Number(amount_sell) * 20)
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("sell_number_berkcoin").value = "";
       }else{
         window.confirm("There is no enough 'berk coin' in your account!");
       }
@@ -119,6 +125,7 @@ function sell_coins(number_id){
         user_storage_parsed.nurettin_coin -= Number(amount_sell);
         user_storage_parsed.price += (Number(amount_sell) * 5)
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("sell_number_nurettincoin").value = "";
       }else{
           window.confirm("There is no enough 'nurettin coin' in your account!");
       }
@@ -133,6 +140,7 @@ function sell_coins(number_id){
         user_storage_parsed.deniz_coin -= Number(amount_sell);
         user_storage_parsed.price += (Number(amount_sell) * 7)
         localStorage.setItem(deneme,JSON.stringify(user_storage_parsed));
+        document.getElementById("sell_number_denizcoin").value = "";
       }else{
         window.confirm("There is no enough 'deniz coin' in your account!");
       }
