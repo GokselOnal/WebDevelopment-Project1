@@ -25,7 +25,7 @@ function register()
         "firstName": text_firstName,
         "lastName": text_fastName,
         "email": text_email,
-        "passwrod": text_password,
+        "password": text_password,
         "phone": text_phone,
         "birthdate": text_birthdate,
         "gender": gender,
