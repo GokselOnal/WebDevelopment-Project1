@@ -18,6 +18,7 @@ function validate(){
     sessionStorage.setItem('user_name', user_name);
     sessionStorage.setItem('user_lastname', user_lastname);
     sessionStorage.setItem('user_price', user_price);
+    sessionStorage.setItem('user_mail', user_mail);
 
     sessionStorage.setItem('user_goksel_coin', user_goksel_coin);
     sessionStorage.setItem('user_berk_coin', user_berk_coin);
