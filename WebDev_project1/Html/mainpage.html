@@ -5,19 +5,22 @@
   <meta charset="utf-8">
   <title>Main Page</title>
   <link rel="stylesheet" type="text/css" href="../Css/mainpage.css">
+
 </head>
 
-<body>
+<body onload="information();">
   <header>
     <h1>Coinzzz</h1>
   </header>
   <div class="sidebar">
-    <label for="fname">First name:</label>
-    /*<input id="fname" type="text" name="firstname" value="Ahmet">*/
-    
-    <label for="money">portfolio:</label>
-    <input id="money" type="text" name="portfolio" value="₺100">
-    Coins owned and their amount:
+    <label class="label_side" for="user_name">First name</label>
+    <h3 id="user_name"> </h2>
+    <label class="label_side" for="last_name">Last name</label>
+    <h3 id="last_name"> </h3>
+    <label class="label_side" for="price">Price</label>
+    <h3 id="price"> </h3>
+    <label class="label_side" for="coins">Coins owned</label>
+    <h3 id="coins"> </h3>
     <ul>
       <li><img src="../Images/goksel_coin.png" width="20" height="20" alt="göksel_coin">
         <label for="sellcoin">Gökselcoin</label>
@@ -90,6 +93,7 @@
   </footer>
 
   <script src="../Js/change_amount.js"></script>
+  <script src="../Js/sidebar_info.js"></script>
 </body>
 
 </html>

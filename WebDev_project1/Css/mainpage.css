@@ -11,14 +11,20 @@ body{
     position:fixed;
     top:100px;
     left:0;
-    width:300px;
+    width:380px;
     height:100%;
     background-color: #3a6d7a;
     border: solid;
     border-color: #00363F;
     border-top: 0;
     border-left: 0;
+    text-align: center;
 }
+
+.label_side{
+  color: #A8D0E6;
+}
+
 .middle{
   position: fixed;
   top:20%;
@@ -90,6 +96,7 @@ h1{
 
   li{
     list-style: none;
+    text-align: center;
   }
 
   header,footer{
@@ -134,3 +141,9 @@ h1{
     transition: 0.20s;
     color: #005762;
   }
+h3{
+  font-size: 16px;
+  font-weight: 18%;
+  margin-top: 0px;
+  color: #17252A;
+}
