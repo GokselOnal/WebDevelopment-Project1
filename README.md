@@ -24,7 +24,7 @@ I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML par
 -------------------------------
 Göksel
 
-html-css => registeration, goksel coin pages
+html-css => registeration, goksel coin pages,
             modified mainpage
             
 js => change_amount,login,sidebar_info
