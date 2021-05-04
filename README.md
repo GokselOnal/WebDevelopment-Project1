@@ -32,4 +32,5 @@ js => change_amount,login,sidebar_info
 methods => buy_coins, sell_coins, update_sidebar, validate, information
 
 error messages => signup page, main page
+
 -------------------------------
