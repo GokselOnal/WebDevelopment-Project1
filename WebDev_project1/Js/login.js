@@ -7,6 +7,7 @@ function validate(){
     window.confirm("Invalid account.. Try again! \nYou can register Coinzzz by register button");
     document.getElementById("email").value = "";
     document.getElementById("password").value = "";
+    return;
   }
   parsed_data = JSON.parse(data_user);
 
