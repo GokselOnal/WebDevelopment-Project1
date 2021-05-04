@@ -27,7 +27,7 @@ Göksel
 html-css => registeration, goksel coin pages,
             modified mainpage
             
-js => change_amount,login,sidebar_info
+js => change_amount, login, sidebar_info
 
 methods => buy_coins, sell_coins, update_sidebar, validate, information
 
