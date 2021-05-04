@@ -3,6 +3,11 @@ function validate(){
   const input_password = document.getElementById("password").value;
 
   data_user = localStorage.getItem(user_mail);
+  if(data_user == null){
+    window.confirm("Invalid account.. Try again! \nYou can register Coinzzz by register button");
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
+  }
   parsed_data = JSON.parse(data_user);
 
   user_password = parsed_data.password;
@@ -28,6 +33,8 @@ function validate(){
     window.location.href = "../Html/mainpage.html";
   }
   else{
-    console.log("yanlıs sifre");
+    window.confirm("Your password is not match with your account..\nTry again!");
+    document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
   }
 }
