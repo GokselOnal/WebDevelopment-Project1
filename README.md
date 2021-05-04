@@ -21,6 +21,7 @@ Berk Akidil
 
 I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML parts of the first version at the MainPage, then other friends made modifications on MainPage.
 
+-------------------------------
 Göksel
 
 html-css => registeration, goksel coin pages
@@ -31,3 +32,4 @@ js => change_amount,login,sidebar_info
 methods => buy_coins, sell_coins, update_sidebar, validate, information
 
 error messages => signup page, main page
+-------------------------------
