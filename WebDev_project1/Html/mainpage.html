@@ -14,47 +14,47 @@
   </header>
   <div class="sidebar">
     <label class="label_side" for="user_name">First name</label>
-    <h3 id="user_name"> </h2>
-    <label class="label_side" for="last_name">Last name</label>
-    <h3 id="last_name"> </h3>
-    <label class="label_side" for="price">Price</label>
-    <h3 id="price"> </h3>
-    <label class="label_side" for="coins">Coins owned</label>
-    <h3 id="coins"> </h3>
-    <ul>
-      <li><img src="../Images/goksel_coin.png" width="20" height="20" alt="göksel_coin">
-        <label for="sellcoin">Gökselcoin</label>
+    <h3 id="user_name">
+      </h2>
+      <label class="label_side" for="last_name">Last name</label>
+      <h3 id="last_name"> </h3>
+      <label class="label_side" for="price">Price</label>
+      <h3 id="price"> </h3>
+      <label class="label_side" for="coins">Coins owned</label>
+      <h3 id="coins"> </h3>
+      <ul>
+        <li><img src="../Images/goksel_coin.png" width="20" height="20" alt="göksel_coin">
+          <label for="sellcoin">Gökselcoin</label>
+          <br>
+          <input class="sell_number_field" id="sell_number_gokselcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+          <button type="button" name="button" onclick="sell_coins('sell_number_gokselcoin')">Sell</button>
+          <span id="sell_value_gokselcoin">10</span>
+        </li>
         <br>
-        <input class="sell_number_field" id="sell_number_gokselcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-        <button type="button" name="button" onclick="sell_coins('sell_number_gokselcoin')">Sell</button>
-        <span id="sell_value_gokselcoin">10</span>
-      </li>
-      <br>
-      <li><img src="../Images/SmallBerkCoin.png" width="20" height="20" alt="berk_coin">
-        <label for="sellcoin">Berkcoin BRK</label>
+        <li><img src="../Images/SmallBerkCoin.png" width="20" height="20" alt="berk_coin">
+          <label for="sellcoin">Berkcoin BRK</label>
+          <br>
+          <input class="sell_number_field" id="sell_number_berkcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+          <button type="button" name="button" onclick="sell_coins('sell_number_berkcoin')">Sell</button>
+          <span id="sell_value_berkcoin">20</span>
+        </li>
         <br>
-        <input class="sell_number_field" id="sell_number_berkcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-        <button type="button" name="button" onclick="sell_coins('sell_number_berkcoin')">Sell</button>
-        <span id="sell_value_berkcoin">20</span>
-      </li>
-      <br>
-      <li><label for="sellcoin">Nurettincoin</label>
+        <li><label for="sellcoin">Nurettincoin</label>
+          <br>
+          <input class="sell_number_field" id="sell_number_nurettincoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+          <button type="button" name="button" onclick="sell_coins('sell_number_nurettincoin')">Sell</button>
+          <span id="sell_value_nurettincoin">5</span>
+        </li>
         <br>
-        <input class="sell_number_field" id="sell_number_nurettincoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-        <button type="button" name="button" onclick="sell_coins('sell_number_nurettincoin')">Sell</button>
-        <span id="sell_value_nurettincoin">5</span>
-      </li>
-      <br>
-      <li><label for="sellcoin">Denizcoin</label>
-        <br>
-        <input class="sell_number_field" id="sell_number_denizcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
-        <button type="button" name="button" onclick="sell_coins('sell_number_denizcoin')">Sell</button>
-        <span id="sell_value_denizcoin">7</span>
-      </li>
-    </ul>
+        <li><label for="sellcoin">Denizcoin</label>
+          <br>
+          <input class="sell_number_field" id="sell_number_denizcoin" type="number" name="amount of coins to be sell" placeholder="amount" min="0" max="100">
+          <button type="button" name="button" onclick="sell_coins('sell_number_denizcoin')">Sell</button>
+          <span id="sell_value_denizcoin">7</span>
+        </li>
+      </ul>
   </div>
   <div class="middle">
-    Coin list: price amount
     <ul>
       <li><img src="../Images/goksel_coin.png" width="20" height="20" alt="göksel_coin">
         <a href="goksel_coin.html">Göksel Coin</a><br>
@@ -81,7 +81,7 @@
       <br>
       <li><a href="deniz_coin.html">Deniz Coin</a><br>
         <input class="number_field" id="buy_number_denizcoin" type="number" name="amount of coins to be buy" placeholder="amount" min="0" max="100">
-        <button type="button" name="buy_coin" id="buy_button_denizcoin"onclick="buy_coins('buy_number_denizcoin')">Buy</button>
+        <button type="button" name="buy_coin" id="buy_button_denizcoin" onclick="buy_coins('buy_number_denizcoin')">Buy</button>
         <span id="buy_value_denizcoin">₺23200</span>
         <hr>
       </li>
