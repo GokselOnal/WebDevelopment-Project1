@@ -39,22 +39,13 @@ function register()
     control_mail=localStorage.getItem(text_email);
 
     if(control_mail == null){
-        /*try {  
-            localStorage.setItem(text_email, JSON.stringify(demo));
-            //BURADA INPUT ALANLARI TEMİZLENECEK
+        localStorage.setItem(text_email, JSON.stringify(demo));
+        //BURADA INPUT ALANLARI TEMİZLENECEK
 
-        } catch(err) {
-            console.log(err)
-        } finally {
-        }*/
-        localStorage.setItem(text_email, JSON.stringify(demo))
     }
     else{
         window.alert("There is an account same email that you have written.");
         //BURADA INPUT ALANLARI TEMİZLENECEK
     }
-
-
-
 }
 
