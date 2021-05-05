@@ -36,7 +36,7 @@ function register()
         "deniz_coin": deniz_coin
     }
 
-    try {
+    try {  
         localStorage.setItem(text_email, JSON.stringify(demo))
     } catch(err) {
         console.log(err)
