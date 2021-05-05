@@ -1,3 +1,16 @@
+function validateForm(){
+    var firstname = document.getElementById("text_firstname").value;
+    if(firstname == null || firstname == ""){
+        alert("First name must be filled out");
+        return false;
+    }
+    var lastname = document.getElementById("text_lastname").value;
+    if(lastname == null || lastname == ""){
+        alert("Last name must be filled out");
+        return false;
+    }
+    
+}
 function register()
 {
     const text_firstName  =document.getElementById("text_firstname").value;
