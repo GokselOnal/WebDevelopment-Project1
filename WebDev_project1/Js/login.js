@@ -34,7 +34,7 @@ function validate(){
     window.location.href = "../Html/mainpage.html";
   }
   else{
-    window.confirm("Your password is not match with your account..\nTry again!");
+    alert("Your password is not match with your account..\nTry again!");
     document.getElementById("email").value = "";
     document.getElementById("password").value = "";
   }
