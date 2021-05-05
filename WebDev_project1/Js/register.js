@@ -9,7 +9,26 @@ function validateForm(){
         alert("Last name must be filled out");
         return false;
     }
-    
+    var email = document.getElementById("text_email").value;
+    if(email == null || email == ""){
+        alert("Email must be filled out");
+        return false;
+    }
+    var password = document.getElementById("text_password").value;
+    if(password == null || password == ""){
+        alert("Password must be filled out");
+        return false;
+    }
+    var phone = document.getElementById("text_phone").value;
+    if(phone == null || phone == ""){
+        alert("Phone must be filled out");
+        return false;
+    }
+    if(phone.length != 11){
+        alert("Phone should be at least 11 characters");
+        return false;
+    }
+    return true;
 }
 function register()
 {
@@ -52,8 +71,10 @@ function register()
     control_mail=localStorage.getItem(text_email);
 
     if(control_mail == null){
-        localStorage.setItem(text_email, JSON.stringify(demo));
-        //BURADA INPUT ALANLARI TEMİZLENECEK
+        if(validateForm()){
+            localStorage.setItem(text_email, JSON.stringify(demo));
+            //BURADA INPUT ALANLARI TEMİZLENECEK
+        }
 
     }
     else{
