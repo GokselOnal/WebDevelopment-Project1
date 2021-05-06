@@ -69,8 +69,7 @@ function register()
     }
 
     control_mail=localStorage.getItem(text_email);
-
-    if(control_mail == null){
+    if(text_email != null && control_mail == null){
         if(validateForm()){
             localStorage.setItem(text_email, JSON.stringify(demo));
             //BURADA INPUT ALANLARI TEMİZLENECEK
@@ -82,4 +81,3 @@ function register()
         //BURADA INPUT ALANLARI TEMİZLENECEK
     }
 }
-
