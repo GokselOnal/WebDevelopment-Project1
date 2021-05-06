@@ -6,16 +6,18 @@ body{
   font-variant: normal;
   font-weight: 500;
   line-height: 25.4px;
+  position: fixed;
 }
 
 img{
-  margin-top: 100px;
-  margin-left: 0;
+  margin-top: 130px;
+  margin-left: 36%;
 }
 
 h1{
   text-align: center;
   color: #A8D0Ef;
+  margin-top: 35px;
 }
 
 header,footer{
@@ -44,8 +46,15 @@ footer{
   border-bottom: 0;
   margin-top: 0;
 }
+.description{
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 350px;
+    margin-left: 30px;
+    text-align: center;
+}
 
-p{
+.footer p{
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
