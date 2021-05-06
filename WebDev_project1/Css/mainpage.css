@@ -147,3 +147,14 @@ h3{
   margin-top: 0px;
   color: #17252A;
 }
+
+.sign_out{
+  margin-top: 30px;
+  background-color: #424354;
+}
+
+.sign_out:hover{
+  transition: 0.35s;
+  background-color: red;//düzeltmeyi unutma
+  color: black;
+}
