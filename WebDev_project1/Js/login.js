@@ -4,7 +4,7 @@ function validate(){
 
   data_user = localStorage.getItem(user_mail);
   if(data_user == null){
-    window.confirm("Invalid account.. Try again! \nYou can register Coinzzz by register button");
+    window.alert("Invalid account.. Try again! \nYou can register Coinzzz by register button");
     document.getElementById("email").value = "";
     document.getElementById("password").value = "";
     return;

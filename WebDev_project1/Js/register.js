@@ -72,12 +72,25 @@ function register()
     if(text_email != null && control_mail == null){
         if(validateForm()){
             localStorage.setItem(text_email, JSON.stringify(demo));
-            //BURADA INPUT ALANLARI TEMİZLENECEK
+            alert("Welcome to Coinzzz!!!");
+            document.getElementById("text_firstname").value = "";
+            document.getElementById("text_lastname").value = "";
+            document.getElementById("text_email").value = "";
+            document.getElementById("text_password").value = "";
+            document.getElementById("text_phone").value = "";
+            document.getElementById("text_birthdate").value = "";
+            document.getElementById("gender").value = "";
         }
 
     }
     else{
         window.alert("There is an account same email that you have written.");
-        //BURADA INPUT ALANLARI TEMİZLENECEK
+        document.getElementById("text_firstname").value = "";
+        document.getElementById("text_lastname").value = "";
+        document.getElementById("text_email").value = "";
+        document.getElementById("text_password").value = "";
+        document.getElementById("text_phone").value = "";
+        document.getElementById("text_birthdate").value = "";
+        document.getElementById("gender").value = "";
     }
 }
