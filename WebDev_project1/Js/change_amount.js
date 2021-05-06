@@ -76,11 +76,6 @@ function sell_coins(number_id) {
   user = sessionStorage.getItem("user_mail");
   user_storage = localStorage.getItem(user);
   user_storage_parsed = JSON.parse(user_storage);
-  user_goksel_coin = user_storage_parsed.goksel_coin;
-  user_berk_coin = user_storage_parsed.berk_coin;
-  user_nurettin_coin = user_storage_parsed.nurettin_coin;
-  user_deniz_coin = user_storage_parsed.deniz_coin;
-
 
   if (number_id === "sell_number_gokselcoin") {
     const amount_sell = document.getElementById("sell_number_gokselcoin").value;
@@ -144,30 +139,35 @@ function sell_coins(number_id) {
 function update_sidebar(coin_name, user_data) {
   user_storage = localStorage.getItem(user);
   user_storage_parsed = JSON.parse(user_storage);
+  user_goksel_coin = user_storage_parsed.goksel_coin;
+  user_berk_coin = user_storage_parsed.berk_coin;
+  user_nurettin_coin = user_storage_parsed.nurettin_coin;
+  user_deniz_coin = user_storage_parsed.deniz_coin;
+
   if (coin_name == "goksel") {
     user_goksel_coin = user_storage_parsed.goksel_coin;
-    document.getElementById("coins").innerText = "Goksel Coin: " + user_goksel_coin + " - Berk Coin: " + berk_coin + "\n Nurettin Coin: " + nurettin_coin + " - Deniz Coin: " + deniz_coin;
+    document.getElementById("coins").innerText = "Goksel Coin: " + user_goksel_coin + " - Berk Coin: " + user_berk_coin + "\n Nurettin Coin: " + user_nurettin_coin + " - Deniz Coin: " + user_deniz_coin;
     user_price = user_storage_parsed.price;
     document.getElementById("price").innerText = "₺" + user_price;
     document.getElementById("sell_number_gokselcoin").value = "";
     document.getElementById("buy_number_gokselcoin").value = "";
   } else if (coin_name == "berk") {
     user_berk_coin = user_storage_parsed.berk_coin;
-    document.getElementById("coins").innerText = "Goksel Coin: " + goksel_coin + " - Berk Coin: " + user_berk_coin + "\n Nurettin Coin: " + nurettin_coin + " - Deniz Coin: " + deniz_coin;
+    document.getElementById("coins").innerText = "Goksel Coin: " + user_goksel_coin + " - Berk Coin: " + user_berk_coin + "\n Nurettin Coin: " + user_nurettin_coin + " - Deniz Coin: " + user_deniz_coin;
     user_price = user_storage_parsed.price;
     document.getElementById("price").innerText = "₺" + user_price;
     document.getElementById("sell_number_berkcoin").value = "";
     document.getElementById("buy_number_berkcoin").value = "";
   } else if (coin_name == "nurettin") {
     user_nurettin_coin = user_storage_parsed.nurettin_coin;
-    document.getElementById("coins").innerText = "Goksel Coin: " + goksel_coin + " - Berk Coin: " + berk_coin + "\n Nurettin Coin: " + user_nurettin_coin + " - Deniz Coin: " + deniz_coin;
+    document.getElementById("coins").innerText = "Goksel Coin: " + user_goksel_coin + " - Berk Coin: " + user_berk_coin + "\n Nurettin Coin: " + user_nurettin_coin + " - Deniz Coin: " + user_deniz_coin;
     user_price = user_storage_parsed.price;
     document.getElementById("price").innerText = "₺" + user_price;
     document.getElementById("sell_number_nurettincoin").value = "";
     document.getElementById("buy_number_nurettincoin").value = "";
   } else if (coin_name == "deniz") {
     user_deniz_coin = user_storage_parsed.deniz_coin;
-    document.getElementById("coins").innerText = "Goksel Coin: " + goksel_coin + " - Berk Coin: " + berk_coin + "\n Nurettin Coin: " + nurettin_coin + " - Deniz Coin: " + user_deniz_coin;
+    document.getElementById("coins").innerText = "Goksel Coin: " + user_goksel_coin + " - Berk Coin: " + user_berk_coin + "\n Nurettin Coin: " + user_nurettin_coin + " - Deniz Coin: " + user_deniz_coin;
     user_price = user_storage_parsed.price;
     document.getElementById("price").innerText = "₺" + user_price;
     document.getElementById("sell_number_denizcoin").value = "";
