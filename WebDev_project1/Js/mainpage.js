@@ -199,10 +199,10 @@ function information(){
   user_price = user_storage_parsed.price;
   name = sessionStorage.getItem("user_name");
   last_name = sessionStorage.getItem("user_lastname");
-  goksel_coin = sessionStorage.getItem("user_goksel_coin");
-  berk_coin = sessionStorage.getItem("user_berk_coin");
-  nurettin_coin = sessionStorage.getItem("user_nurettin_coin");
-  deniz_coin = sessionStorage.getItem("user_deniz_coin");
+  goksel_coin = user_storage_parsed.goksel_coin;
+  berk_coin =  user_storage_parsed.berk_coin;
+  nurettin_coin = user_storage_parsed.nurettin_coin;
+  deniz_coin = user_storage_parsed.deniz_coin;
   document.getElementById("user_name").innerText = name;
   document.getElementById("last_name").innerText = last_name;
   document.getElementById("price").innerText = "₺"+user_price;
