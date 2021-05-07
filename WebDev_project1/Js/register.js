@@ -33,11 +33,14 @@ function validateForm(){
         alert("Birthdate must be filled out");
         return false;
     }
-    var gender = document.getElementById("text_gender").value;
-    if(gender == null || gender == ""){
-        alert("Gender must be filled out");
+    var genderM = document.getElementById("male").value;
+    var genderF = document.getElementById("female").value;
+    var genderO = document.getElementById("other").value;
+    if(genderM.checked==false && genderF.checked==false && genderO.checked==false ) {
+        alert("You must select male or female or other");
         return false;
-    }
+    }   
+
     return true;
 }
 function register()
