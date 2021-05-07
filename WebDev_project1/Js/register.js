@@ -25,7 +25,7 @@ function validateForm(){
         return false;
     }
     if(phone.length != 11){
-        alert("Phone should be at least 11 characters");
+        alert("Phone must consist of 11 digits");
         return false;
     }
     var birthdate = document.getElementById("text_birthdate").value;
