@@ -158,3 +158,8 @@ h3{
   background-color: red;//düzeltmeyi unutma
   color: black;
 }
+.add_balance{
+  margin-top: 5px;
+  margin-right: 125px;
+  background-color: #33333;
+}

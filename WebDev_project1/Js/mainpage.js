@@ -193,5 +193,29 @@ function sign_out(){
   sessionStorage.clear();
   window.location.href = "../Html/entrance.html";
 }
+function add_balance(){
+  user = sessionStorage.getItem("user_mail");
+  user_storage = localStorage.getItem(user);
+  user_storage_parsed = JSON.parse(user_storage);
+  user_storage_parsed.price += 100;
+  localStorage.setItem(user, JSON.stringify(user_storage_parsed));
+  user_price = user_storage_parsed.price;
+  document.getElementById("price").innerText = "₺" + user_price;
+
+}
+function remove_balance(){
+  user = sessionStorage.getItem("user_mail");
+  user_storage = localStorage.getItem(user);
+  user_storage_parsed = JSON.parse(user_storage);
+  if(user_price >=100){
+    user_storage_parsed.price -= 100;
+  }
+
+  localStorage.setItem(user, JSON.stringify(user_storage_parsed));
+  user_price = user_storage_parsed.price;
+  document.getElementById("price").innerText = "₺" + user_price;
+
+}
+
 
 //clearları hata mesajlarından sonra da yapacaksın, ayrı bir methodda düzgün bir şekilde yap
