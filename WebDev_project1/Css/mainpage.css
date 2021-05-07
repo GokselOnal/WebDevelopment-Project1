@@ -13,7 +13,7 @@ body{
     left:0;
     width:380px;
     height:100%;
-    background-color: #3a6d7a;
+    background-color: #1a6d7a;
     border: solid;
     border-color: #00363F;
     border-top: 0;
@@ -155,18 +155,48 @@ h3{
 
 .sign_out:hover{
   transition: 0.35s;
-  background-color: red;//düzeltmeyi unutma
+  background-color: #FF585B;
+  border-color: #1a6d7a;
   color: black;
 }
 
 .bottom_div{
   position:fixed;
   top:77%;
-  left:13.2%;
-  width:100%;
+  left:23.2%;
+  width:80%;
   height:20%;
 }
 
 .update_balance{
   width: 150px;
+  background: #424342;
+}
+
+.update_balance:hover{
+  transition: 0.3s;
+  background-color: #FF665F;
+  border-color: #1a6d7a;
+  color: black;
+}
+
+#add_balance:hover{
+  transition: 0.3s;
+  background-color: #00ED5F;
+  border-color: #1a6d7a;
+  color: black;
+}
+
+.sell_button{
+  border-style: solid;
+  border-color: #00ACB2;
+  background-color: #005762;
+  color: #A8D0E6;
+}
+
+.sell_button:hover{
+  transition: 0.65s;
+  background-color: #00ED5F;
+  border-color: #00EDBE;
+  color: #17252A;
 }
