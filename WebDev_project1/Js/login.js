@@ -14,7 +14,6 @@ function validate(){
   user_password = parsed_data.password;
   user_name = parsed_data.firstName;
   user_lastname = parsed_data.lastName;
-  user_price = parsed_data.price;
   user_goksel_coin = parsed_data.goksel_coin;
   user_berk_coin = parsed_data.berk_coin;
   user_nurettin_coin = parsed_data.nurettin_coin;
@@ -23,7 +22,6 @@ function validate(){
   if(user_password === input_password){
     sessionStorage.setItem('user_name', user_name);
     sessionStorage.setItem('user_lastname', user_lastname);
-    sessionStorage.setItem('user_price', user_price);
     sessionStorage.setItem('user_mail', user_mail);
 
     sessionStorage.setItem('user_goksel_coin', user_goksel_coin);

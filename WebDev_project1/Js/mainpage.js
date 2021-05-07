@@ -193,19 +193,21 @@ function update_sidebar(coin_name, user_data) {
 }
 
 function information(){
+  user = sessionStorage.getItem("user_mail");
+  user_storage = localStorage.getItem(user);
+  user_storage_parsed = JSON.parse(user_storage);
+  user_price = user_storage_parsed.price;
   name = sessionStorage.getItem("user_name");
   last_name = sessionStorage.getItem("user_lastname");
-  price = sessionStorage.getItem("user_price");
   goksel_coin = sessionStorage.getItem("user_goksel_coin");
   berk_coin = sessionStorage.getItem("user_berk_coin");
   nurettin_coin = sessionStorage.getItem("user_nurettin_coin");
   deniz_coin = sessionStorage.getItem("user_deniz_coin");
   document.getElementById("user_name").innerText = name;
   document.getElementById("last_name").innerText = last_name;
-  document.getElementById("price").innerText = "₺"+price;
+  document.getElementById("price").innerText = "₺"+user_price;
   document.getElementById("coins").innerText = "Goksel Coin: "+ goksel_coin + " - Berk Coin: " + berk_coin + "\n Nurettin Coin: " + nurettin_coin + " - Deniz Coin: " + deniz_coin;
 }
-//clearları hata mesajlarından sonra da yapacaksın, ayrı bir methodda düzgün bir şekilde yap
 
 function clear_inputs(coin_name){
   if(coin_name == "goksel_coin"){
