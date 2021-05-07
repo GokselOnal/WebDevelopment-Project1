@@ -30,7 +30,7 @@ html-css => registeration, goksel coin pages,
             
 js => change_amount, login, sidebar_info
 
-methods => buy_coins, sell_coins, update_sidebar, validate, information
+methods => buy_coins, sell_coins, update_sidebar, validate, information, sign_out, clear_inputs
 
 error messages => signup page, main page
 
