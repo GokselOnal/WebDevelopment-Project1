@@ -36,7 +36,7 @@ function validateForm(){
     var genderM = document.getElementById("male");
     var genderF = document.getElementById("female");
     var genderO = document.getElementById("other");
-    if(genderM.checked==false && genderF.checked==false && genderO.checked==false ) {
+    if(genderM.checked==false && genderF.checked==false && genderO.checked==false) {
         alert("You have to choose gender");
         return false;
     }
@@ -99,11 +99,16 @@ function register()
 }
 
 function clear_inputs(){
+  var genderM = document.getElementById("male");
+  var genderF = document.getElementById("female");
+  var genderO = document.getElementById("other");
   document.getElementById("text_firstname").value = "";
   document.getElementById("text_lastname").value = "";
   document.getElementById("text_email").value = "";
   document.getElementById("text_password").value = "";
   document.getElementById("text_phone").value = "";
   document.getElementById("text_birthdate").value = "";
-  document.getElementById("gender").value = "";
+  genderM.checked = false;
+  genderF.checked = false;
+  genderO.checked = false;
 }
