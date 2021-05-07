@@ -33,9 +33,9 @@ function validateForm(){
         alert("Birthdate must be filled out");
         return false;
     }
-    var genderM = document.getElementById("male").value;
-    var genderF = document.getElementById("female").value;
-    var genderO = document.getElementById("other").value;
+    var genderM = document.getElementById("male");
+    var genderF = document.getElementById("female");
+    var genderO = document.getElementById("other");
     if(genderM.checked==false && genderF.checked==false && genderO.checked==false ) {
         alert("You must select male or female or other");
         return false;
