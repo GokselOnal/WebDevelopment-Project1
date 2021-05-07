@@ -39,7 +39,7 @@ function validateForm(){
     if(genderM.checked==false && genderF.checked==false && genderO.checked==false ) {
         alert("You must select male or female or other");
         return false;
-    }   
+    }
 
     return true;
 }
@@ -86,7 +86,8 @@ function register()
         if(validateForm()){
             localStorage.setItem(text_email, JSON.stringify(demo));
             window.alert("Welcome to Coinzzz!!!");
-            clear_inputs();
+            window.location.href = "../Html/entrance.html";
+            //clear_inputs();
         }else{
           clear_inputs();
         }
