@@ -37,7 +37,7 @@ function validateForm(){
     var genderF = document.getElementById("female");
     var genderO = document.getElementById("other");
     if(genderM.checked==false && genderF.checked==false && genderO.checked==false ) {
-        alert("You must select male or female or other");
+        alert("You have to choose gender");
         return false;
     }
 
