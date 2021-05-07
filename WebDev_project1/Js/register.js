@@ -28,6 +28,16 @@ function validateForm(){
         alert("Phone should be at least 11 characters");
         return false;
     }
+    var birthdate = document.getElementById("text_birthdate").value;
+    if(birthdate == null || birthdate == ""){
+        alert("Birthdate must be filled out");
+        return false;
+    }
+    var gender = document.getElementById("text_gender").value;
+    if(gender == null || gender == ""){
+        alert("Gender must be filled out");
+        return false;
+    }
     return true;
 }
 function register()
