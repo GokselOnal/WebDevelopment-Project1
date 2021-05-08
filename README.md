@@ -1,10 +1,10 @@
 # WebDevelopment-Project1
 List of project members
 
-1-)GÖKSEL CAN ONAL
-2-)NURETTİN BURAK ALTINTAŞ
-3-)BERK AKİDİL
-4-)DENİZ AFŞAR
+1) GÖKSEL CAN öNAL
+2) NURETTİN BURAK ALTINTAŞ
+3) BERK AKİDİL
+4) DENİZ AFŞAR
 
 SHORT DESCRIPTION OF PROJECT:
 This project was designed as a simple cryptocurrency trading site.In the construction of the project, examples were taken from sites such as Binance coinmarkcap,they were used as a reference. Our aim to make this project is that we knew that there are many successful sites and exchanges about crypto money in the world, we felt that Turkey was lacking in this regard, we decided to make our site.
