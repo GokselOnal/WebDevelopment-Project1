@@ -27,7 +27,7 @@ function of validateForm in register js
 2) Designing header and footer.
 3) Updating design of main page.
 4) Redirecting login page after any valid registration.
-5) Control of sign up inputs and redirect to main page after valid login.
+5) Control of sign up inputs and redirect to main page after any valid login.
 6) Error messages of sign up page.
 7) Sidebar information.
 8) Enabling users to buy coin from Coinzzz.
