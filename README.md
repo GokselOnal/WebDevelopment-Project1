@@ -14,7 +14,7 @@ The register page is designed for people to become a member of the site. After f
 
 
 ### Responsibilities of each project member
-
+-------------------------------
 Berk Akidil
 
 I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML parts of the first version at the MainPage, then other friends made modifications on MainPage.I made
