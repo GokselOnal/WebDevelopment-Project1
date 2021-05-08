@@ -58,5 +58,6 @@ Nurettin
 3) First implementation of register.js (implementing the register function in order to implement the localStorage.)
 
 -------------------------------
+### Additional libraries used
 
--We did not use the additional library.
+Additional library is not used.
