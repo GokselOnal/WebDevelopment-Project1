@@ -20,10 +20,13 @@ In order for someone who logs into the website for the first time to log in to t
 
 ### Responsibilities of each project member
 -------------------------------
-Berk Akidil
+#### Berk Akidil
+**1)** Making the CSS and HTML parts of the berk coin page.\
+**2)** Making the CSS and HTML parts of the first version of the MainPage.\
+**3)** Making the function of validateForm in register js.\
+**4)** Writing the Short Description of project in Readme
+**5)** Writing the Instructions for how to run the application in Readme
 
-I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML parts of the first version at the MainPage, then other friends made modifications on MainPage.I made
-function of validateForm in register js
 
 ---
 #### Göksel Can ÖNAL
