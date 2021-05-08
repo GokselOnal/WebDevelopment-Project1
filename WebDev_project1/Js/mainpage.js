@@ -104,7 +104,7 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("goksel", user);
       } else {
-        enough_amaount_error("goksel");
+        enough_amount_error("goksel");
         clear_inputs("goksel_coin");
       }
     }
@@ -120,7 +120,7 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("berk", user);
       } else {
-        enough_amaount_error("berk");
+        enough_amount_error("berk");
         clear_inputs("berk_coin");
       }
     }
@@ -136,7 +136,7 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("nurettin", user);
       } else {
-        enough_amaount_error("nurettin");
+        enough_amount_error("nurettin");
         clear_inputs("nurettin_coin");
       }
     }
@@ -152,7 +152,7 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("deniz", user);
       } else {
-        enough_amaount_error("deniz");
+        enough_amount_error("deniz");
         clear_inputs("deniz_coin");
       }
     }
@@ -257,7 +257,7 @@ function remove_balance(){
   window.alert("₺100 is withdrawn from your balance");
 }
 
-function enough_amaount_error(coins_name){
+function enough_amount_error(coins_name){
   if(coins_name == "goksel"){
     window.alert("There is no enough 'Goksel Coin' in your account!");
   }
