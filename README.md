@@ -39,4 +39,6 @@ Deniz
 2) Creating Denizcoin page and placing icons(html, css)
 3) Enable users to deposit or withdraw money to their account thanks to the buttons located on the homepage.
 
+-------------------------------
+
 -We did not use the additional library.
