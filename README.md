@@ -28,19 +28,19 @@ function of validateForm in register js
 -------------------------------
 #### Göksel Can ÖNAL
 
-1) Creating registration and göksel coin pages.
-2) Designing header and footer.
-3) Updating design of main page.
-4) Redirecting login page after any valid registration.
-5) Control of sign up inputs and redirect to main page after any valid login.
-6) Error messages of sign up page.
-7) Sidebar information.
-8) Enabling users to buy coin from Coinzzz.
-9) Enabling users to sell their coin from their accounts.
-10) Updating sidebar information (balance and coins amount of users) after any transaction.
-11) All control mechanism of transactions and error messages of main page.
-12) Clearing input fields after any transaction or error messages in main page.
-13) Enabling users to sign out from their account and redirect to sign up page.
+**1)** Creating registration and göksel coin pages.\
+**2)** Designing header and footer.\
+**3)** Updating design of main page.\
+**4)** Redirecting login page after any valid registration.\
+**5)** Control of sign up inputs and redirect to main page after any valid login.\
+**6)** Error messages of sign up page.\
+**7)** Sidebar information.\
+**8)** Enabling users to buy coin from Coinzzz.\
+**9)** Enabling users to sell their coin from their accounts.\
+**10)** Updating sidebar information (balance and coins amount of users) after any transaction.\
+**11)** All control mechanism of transactions and error messages of main page.\
+**12)** Clearing input fields after any transaction or error messages in main page.\
+**13)** Enabling users to sign out from their account and redirect to sign up page.
 
 
 -------------------------------
