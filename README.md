@@ -4,7 +4,7 @@
 **1**) GÖKSEL CAN ÖNAL\
 **2)** NURETTİN BURAK ALTINTAŞ\
 **3)** BERK AKİDİL\
-**4)** DENİZ AFŞAR\
+**4)** DENİZ AFŞAR
 
 ### Short Description of project
 This project was designed as a simple cryptocurrency trading site.In the construction of the project, examples were taken from sites such as Binance coinmarkcap,they were used as a reference. Our aim to make this project is that we knew that there are many successful sites and exchanges about crypto money in the world, we felt that Turkey was lacking in this regard, we decided to make our site.
