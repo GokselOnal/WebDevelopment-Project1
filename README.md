@@ -40,5 +40,12 @@ Deniz
 3) Enable users to deposit or withdraw money to their account thanks to the buttons located on the homepage.
 
 -------------------------------
+Nurettin
+
+1) Making the entrance.html and nurettincoin.html.
+2) Making the entrance.css and nurettin_coin.css
+3) First implementation of register.js (implementing the register function in order to implement the localStorage.)
+   
+-------------------------------
 
 -We did not use the additional library.
