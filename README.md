@@ -47,8 +47,9 @@ function of validateForm in register js
 Deniz
 
 1) Solving some problems on the registration page and clearing inputs.
-2) Creating Denizcoin page and placing icons(html, css)
+2) Creating Denizcoin page and placing icons(html, css).
 3) Enable users to deposit or withdraw money to their account thanks to the buttons located on the homepage.
+4) Writing the Usecase scenario.
 
 -------------------------------
 Nurettin
