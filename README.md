@@ -25,7 +25,7 @@ Berk Akidil
 I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML parts of the first version at the MainPage, then other friends made modifications on MainPage.I made
 function of validateForm in register js
 
--------------------------------
+---
 #### Göksel Can ÖNAL
 
 **1)** Creating registration and göksel coin pages.\
@@ -42,8 +42,7 @@ function of validateForm in register js
 **12)** Clearing input fields after any transaction or error messages in main page.\
 **13)** Enabling users to sign out from their account and redirect to sign up page.
 
-
--------------------------------
+---
 Deniz
 
 1) Solving some problems on the registration page and clearing inputs.
