@@ -1,4 +1,7 @@
 function buy_coins(number_id) {
+
+  var invalid_amount_error = "Select an proper amount to buy coins please!\nValues greater than 0 are valid";
+  var enough_balance_error = "There is no enough money in your account!";
   user = sessionStorage.getItem("user_mail");
   user_storage = localStorage.getItem(user);
   user_storage_parsed = JSON.parse(user_storage);
@@ -7,7 +10,7 @@ function buy_coins(number_id) {
   if (number_id === "buy_number_gokselcoin") {
     const amount_buy = document.getElementById("buy_number_gokselcoin").value;
     if (amount_buy == "" || amount_buy <= 0) {
-      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
+      window.alert(invalid_amount_error);
       clear_inputs("goksel_coin");
     } else {
       const val_goksel = document.getElementById("buy_value_gokselcoin").innerText;
@@ -18,14 +21,14 @@ function buy_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("goksel", user);
       } else {
-        window.alert("There is no enough money in your account!");
+        window.alert(enough_balance_error);
         clear_inputs("goksel_coin");
       }
     }
   } else if (number_id === "buy_number_berkcoin") {
     const amount_buy = document.getElementById("buy_number_berkcoin").value;
     if (amount_buy == "" || amount_buy <= 0) {
-      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
+      window.alert(invalid_amount_error);
       clear_inputs("berk_coin");
     } else {
       const val_berk = document.getElementById("buy_value_berkcoin").innerText;
@@ -36,14 +39,14 @@ function buy_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("berk", user);
       } else {
-        window.alert("There is no enough money in your account!");
+        window.alert(enough_balance_error);
         clear_inputs("berk_coin");
       }
     }
   } else if (number_id === "buy_number_nurettincoin") {
     const amount_buy = document.getElementById("buy_number_nurettincoin").value;
     if (amount_buy == "" || amount_buy <= 0) {
-      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
+      window.alert(invalid_amount_error);
       clear_inputs("nurettin_coin");
     } else {
       const val_nurettin = document.getElementById("buy_value_nurettincoin").innerText;
@@ -54,14 +57,14 @@ function buy_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("nurettin", user);
       } else {
-        window.alert("There is no enough money in your account!");
+        window.alert(enough_balance_error);
         clear_inputs("nurettin_coin");
       }
     }
   } else if (number_id === "buy_number_denizcoin") {
     const amount_buy = document.getElementById("buy_number_denizcoin").value;
     if (amount_buy == "" || amount_buy <= 0) {
-      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
+      window.alert(invalid_amount_error);
       clear_inputs("deniz_coin");
     } else {
       const val_deniz = document.getElementById("buy_value_denizcoin").innerText;
@@ -72,15 +75,15 @@ function buy_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("deniz", user);
       } else {
-        window.alert("There is no enough money in your account!");
+        window.alert(enough_balance_error);
         clear_inputs("deniz_coin");
       }
     }
   }
 }
 
-
 function sell_coins(number_id) {
+  var invalid_amount_error = "Select an proper amount to buy coins please!\nValues greater than 0 are valid";
   user = sessionStorage.getItem("user_mail");
   user_storage = localStorage.getItem(user);
   user_storage_parsed = JSON.parse(user_storage);
@@ -89,11 +92,10 @@ function sell_coins(number_id) {
   user_nurettin_coin = user_storage_parsed.nurettin_coin;
   user_deniz_coin = user_storage_parsed.deniz_coin;
 
-
   if (number_id === "sell_number_gokselcoin") {
     const amount_sell = document.getElementById("sell_number_gokselcoin").value;
     if (amount_sell == "" || amount_sell <= 0) {
-      window.alert("Select an amount to sell your coins please!");
+      window.alert(invalid_amount_error);
       clear_inputs("goksel_coin");
     } else {
       if (user_goksel_coin >= amount_sell) {
@@ -102,14 +104,14 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("goksel", user);
       } else {
-        window.alert("There is no enough 'goksel coin' in your account!");
+        enough_amaount_error("goksel");
         clear_inputs("goksel_coin");
       }
     }
   } else if (number_id === "sell_number_berkcoin") {
     const amount_sell = document.getElementById("sell_number_berkcoin").value;
     if (amount_sell == "" || amount_sell <= 0) {
-      window.alert("Select an amount to sell your coins please!");
+      window.alert(invalid_amount_error);
       clear_inputs("berk_coin");
     } else {
       if (user_berk_coin >= amount_sell) {
@@ -118,14 +120,14 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("berk", user);
       } else {
-        window.alert("There is no enough 'berk coin' in your account!");
+        enough_amaount_error("berk");
         clear_inputs("berk_coin");
       }
     }
   } else if (number_id === "sell_number_nurettincoin") {
     const amount_sell = document.getElementById("sell_number_nurettincoin").value;
     if (amount_sell == "" || amount_sell <= 0) {
-      window.alert("Select an amount to sell your coins please!");
+      window.alert(invalid_amount_error);
       clear_inputs("nurettin_coin");
     } else {
       if (user_nurettin_coin >= amount_sell) {
@@ -134,14 +136,14 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("nurettin", user);
       } else {
-        window.alert("There is no enough 'nurettin coin' in your account!");
+        enough_amaount_error("nurettin");
         clear_inputs("nurettin_coin");
       }
     }
   } else if (number_id === "sell_number_denizcoin") {
     const amount_sell = document.getElementById("sell_number_denizcoin").value;
     if (amount_sell == "" || amount_sell <= 0) {
-      window.alert("Select an amount to sell your coins please!");
+      window.alert(invalid_amount_error);
       clear_inputs("deniz_coin");
     } else {
       if (user_deniz_coin >= amount_sell) {
@@ -150,7 +152,7 @@ function sell_coins(number_id) {
         localStorage.setItem(user, JSON.stringify(user_storage_parsed));
         update_sidebar("deniz", user);
       } else {
-        window.alert("There is no enough 'deniz coin' in your account!");
+        enough_amaount_error("deniz");
         clear_inputs("deniz_coin");
       }
     }
@@ -253,4 +255,19 @@ function remove_balance(){
   user_price = user_storage_parsed.price;
   document.getElementById("price").innerText = "₺" + user_price;
 
+}
+
+function enough_amaount_error(coins_name){
+  if(coins_name == "goksel"){
+    window.alert("There is no enough 'Goksel Coin' in your account!");
+  }
+  else if(coins_name == "berk"){
+    window.alert("There is no enough 'Berk Coin' in your account!");
+  }
+  else if(coins_name == "nurettin"){
+    window.alert("There is no enough 'Nurettin Coin' in your account!");
+  }
+  else if(coins_name == "deniz"){
+    window.alert("There is no enough 'Deniz Coin' in your account!");
+  }
 }
