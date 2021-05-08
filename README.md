@@ -21,7 +21,7 @@ I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML par
 function of validateForm in register js
 
 -------------------------------
-Göksel
+Göksel Can ÖNAL
 
 1) Creating registration and göksel coin pages.
 2) Designing header and footer.
@@ -35,7 +35,7 @@ Göksel
 10) Updating sidebar information (balance and coins amount of users) after any transaction.
 11) All control mechanism of transactions and error messages of main page.
 12) Clearing input fields after any transaction or error messages in main page.
-13) Enabling sign out from their account and redirect to sign up page.
+13) Enabling users to sign out from their account and redirect to sign up page.
 
 
 -------------------------------
