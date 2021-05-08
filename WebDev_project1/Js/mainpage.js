@@ -6,8 +6,8 @@ function buy_coins(number_id) {
 
   if (number_id === "buy_number_gokselcoin") {
     const amount_buy = document.getElementById("buy_number_gokselcoin").value;
-    if (amount_buy == "" || amount_buy == 0) {
-      window.alert("Select an amount to buy coins please!");
+    if (amount_buy == "" || amount_buy <= 0) {
+      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
       clear_inputs("goksel_coin");
     } else {
       const val_goksel = document.getElementById("buy_value_gokselcoin").innerText;
@@ -24,8 +24,8 @@ function buy_coins(number_id) {
     }
   } else if (number_id === "buy_number_berkcoin") {
     const amount_buy = document.getElementById("buy_number_berkcoin").value;
-    if (amount_buy == "" || amount_buy == 0) {
-      window.alert("Select an amount to buy coins please!");
+    if (amount_buy == "" || amount_buy <= 0) {
+      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
       clear_inputs("berk_coin");
     } else {
       const val_berk = document.getElementById("buy_value_berkcoin").innerText;
@@ -42,8 +42,8 @@ function buy_coins(number_id) {
     }
   } else if (number_id === "buy_number_nurettincoin") {
     const amount_buy = document.getElementById("buy_number_nurettincoin").value;
-    if (amount_buy == "" || amount_buy == 0) {
-      window.alert("Select an amount to buy coins please!");
+    if (amount_buy == "" || amount_buy <= 0) {
+      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
       clear_inputs("nurettin_coin");
     } else {
       const val_nurettin = document.getElementById("buy_value_nurettincoin").innerText;
@@ -60,8 +60,8 @@ function buy_coins(number_id) {
     }
   } else if (number_id === "buy_number_denizcoin") {
     const amount_buy = document.getElementById("buy_number_denizcoin").value;
-    if (amount_buy == "" || amount_buy == 0) {
-      window.alert("Select an amount to buy coins please!");
+    if (amount_buy == "" || amount_buy <= 0) {
+      window.alert("Select an proper amount to buy coins please!\nValues greater than 0 are valid");
       clear_inputs("deniz_coin");
     } else {
       const val_deniz = document.getElementById("buy_value_denizcoin").innerText;
@@ -92,7 +92,7 @@ function sell_coins(number_id) {
 
   if (number_id === "sell_number_gokselcoin") {
     const amount_sell = document.getElementById("sell_number_gokselcoin").value;
-    if (amount_sell == "" || amount_sell == 0) {
+    if (amount_sell == "" || amount_sell <= 0) {
       window.alert("Select an amount to sell your coins please!");
       clear_inputs("goksel_coin");
     } else {
@@ -108,7 +108,7 @@ function sell_coins(number_id) {
     }
   } else if (number_id === "sell_number_berkcoin") {
     const amount_sell = document.getElementById("sell_number_berkcoin").value;
-    if (amount_sell == "" || amount_sell == 0) {
+    if (amount_sell == "" || amount_sell <= 0) {
       window.alert("Select an amount to sell your coins please!");
       clear_inputs("berk_coin");
     } else {
@@ -124,7 +124,7 @@ function sell_coins(number_id) {
     }
   } else if (number_id === "sell_number_nurettincoin") {
     const amount_sell = document.getElementById("sell_number_nurettincoin").value;
-    if (amount_sell == "" || amount_sell == 0) {
+    if (amount_sell == "" || amount_sell <= 0) {
       window.alert("Select an amount to sell your coins please!");
       clear_inputs("nurettin_coin");
     } else {
@@ -140,7 +140,7 @@ function sell_coins(number_id) {
     }
   } else if (number_id === "sell_number_denizcoin") {
     const amount_sell = document.getElementById("sell_number_denizcoin").value;
-    if (amount_sell == "" || amount_sell == 0) {
+    if (amount_sell == "" || amount_sell <= 0) {
       window.alert("Select an amount to sell your coins please!");
       clear_inputs("deniz_coin");
     } else {
