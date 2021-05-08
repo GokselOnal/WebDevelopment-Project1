@@ -21,7 +21,7 @@ I made the CSS and HTML parts of the berk coin page, I made the CSS and HTML par
 function of validateForm in register js
 
 -------------------------------
-##Göksel Can ÖNAL
+## Göksel Can ÖNAL
 
 1) Creating registration and göksel coin pages.
 2) Designing header and footer.
