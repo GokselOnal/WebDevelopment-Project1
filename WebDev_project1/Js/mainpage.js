@@ -241,7 +241,7 @@ function add_balance(){
   localStorage.setItem(user, JSON.stringify(user_storage_parsed));
   user_price = user_storage_parsed.price;
   document.getElementById("price").innerText = "₺" + user_price;
-
+  window.alert("₺100 is deposited to your balance");
 }
 function remove_balance(){
   user = sessionStorage.getItem("user_mail");
@@ -254,7 +254,7 @@ function remove_balance(){
   localStorage.setItem(user, JSON.stringify(user_storage_parsed));
   user_price = user_storage_parsed.price;
   document.getElementById("price").innerText = "₺" + user_price;
-
+  window.alert("₺100 is withdrawn from your balance");
 }
 
 function enough_amaount_error(coins_name){
