@@ -1,4 +1,4 @@
-# WebDevelopment-Project1
+# Coinzzz
 List of project members
 
 1) GÖKSEL CAN öNAL
