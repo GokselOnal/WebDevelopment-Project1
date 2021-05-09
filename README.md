@@ -40,15 +40,20 @@ The register page is designed for people to become a member of the site. After f
 <ul style="margin-left: 40px;">
 
 #### Berk Akidil
+
+<ul style="margin-left: 10px;">
+  
 **1)** Making the CSS and HTML parts of the berk coin page.\
 **2)** Making the CSS and HTML parts of the first version of the MainPage.\
 **3)** Making the function of validateForm in register js.\
 **4)** Writing the Short Description of project in Readme.\
 **5)** Writing the Instructions for how to run the application in Readme.
-
+</ul>
 
 ---
 #### Göksel Can ÖNAL
+
+<ul style="margin-left: 10px;">
 
 **1)** Creating registration and göksel coin pages.\
 **2)** Designing header and footer.\
@@ -63,21 +68,29 @@ The register page is designed for people to become a member of the site. After f
 **11)** All control mechanism of transactions and error messages of main page.\
 **12)** Clearing input fields after any transaction or after any error messages in main page.\
 **13)** Enabling users to sign out from their account and redirect to sign up page.
+</ul>
 
 ---
-### Deniz
+#### Deniz
 
+<ul style="margin-left: 10px;">
+  
 **1)** Solving some problems on the registration page and clearing inputs.\
 **2)** Creating Denizcoin page and placing icons(html, css).\
 **3)** Enable users to deposit or withdraw money to their account thanks to the buttons located on the homepage.\
 **4)** Writing the Usecase scenario.
+</ul>
 
 ---
-### Nurettin Burak ALTINTAŞ
+#### Nurettin Burak ALTINTAŞ
 
+<ul style="margin-left: 10px;">
+  
 **1)** Making the entrance.html and nurettincoin.html.\
 **2)** Making the entrance.css and nurettin_coin.css.\
 **3)** First implementation of register.js (implementing the register function in order to implement the localStorage).
+
+</ul>
 
 </ul>
 <h2></h2>
