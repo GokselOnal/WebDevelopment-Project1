@@ -1,10 +1,10 @@
 # Coinzzz
 ### List of project members
 
-**1**) GÖKSEL CAN ÖNAL\
-**2)** NURETTİN BURAK ALTINTAŞ\
-**3)** BERK AKİDİL\
-**4)** DENİZ AFŞAR
++  GÖKSEL CAN ÖNAL
++  NURETTİN BURAK ALTINTAŞ
++  BERK AKİDİL
++  DENİZ AFŞAR
 
 <h2></h2>
 
