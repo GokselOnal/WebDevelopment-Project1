@@ -1,15 +1,21 @@
 # Coinzzz
 ### List of project members
-
-+  GÖKSEL CAN ÖNAL
-+  NURETTİN BURAK ALTINTAŞ
-+  BERK AKİDİL
-+  DENİZ AFŞAR
+  
+<ul>
+    <li>GÖKSEL CAN ÖNAL</li>
+    <li>NURETTİN BURAK ALTINTAŞ</li>
+    <li>BERK AKİDİL</li>
+    <li>DENİZ AFŞAR</li>
+</ul>
 
 <h2></h2>
 
 ### Short Description of project
+<ul>
+  <li style="list-style: none;">
 This project was designed as a simple cryptocurrency trading site.In the construction of the project, examples were taken from sites such as Binance coinmarkcap,they were used as a reference. Our aim to make this project is that we knew that there are many successful sites and exchanges about crypto money in the world, we felt that Turkey was lacking in this regard, we decided to make our site.
+  </li>
+</ul>
 
 <h2></h2>
 
