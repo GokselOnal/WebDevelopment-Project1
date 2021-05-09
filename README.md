@@ -71,7 +71,7 @@ The register page is designed for people to become a member of the site. After f
 </ul>
 
 ---
-#### Deniz
+#### Deniz AFŞAR
 
 <ul style="margin-left: 10px;">
   
