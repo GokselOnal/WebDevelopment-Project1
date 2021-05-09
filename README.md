@@ -67,7 +67,8 @@ The register page is designed for people to become a member of the site. After f
 **10)** Updating sidebar information (balance and coins amount of users) after any transaction.\
 **11)** All control mechanism of transactions and error messages of main page.\
 **12)** Clearing input fields after any transaction or after any error messages in main page.\
-**13)** Enabling users to sign out from their account and redirect to sign up page.
+**13)** Enabling users to sign out from their account and redirect to sign up page.\
+**14)** Desinging readme.
 </ul>
 
 ---
