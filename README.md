@@ -13,7 +13,8 @@ This project was designed as a simple cryptocurrency trading site.In the constru
 
 **1)** _register.html_\
 **2)** _entrance.html_\
-**3)** _mainpage.html_
+**3)** _mainpage.html_\
+**4)** _gokselcoin_html, berk_coin.html, nurettin_coin.html, deniz_coin.html_
 
 The register page is designed for people to become a member of the site. After filling in all the information,people can become a member by clicking the register button.Members can easily log in from the login page when they want to log in to the site. When people log in, they will be transferred to the MainPage.In the left corner on the MainPage, people can easily see their financial status and the number of their coins, on the right, they can buy and sell the coins they want, and finally, when they click on the coin, they have redirected to the page a piece of detailed information about the coin.
 
